@@ -1,0 +1,379 @@
+body {
+  max-width: 100%;
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  background-color: rgba(243, 239, 235, 0.934);
+  overflow-x: hidden;
+}
+/* App Main Div CSS */
+.AppMainDiv {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+/* Header Css */
+.HeaderMainDiv {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.HeaderLogoDiv img {
+  width: 80px;
+  height: 80px;
+  margin-left: 10px;
+}
+.HeaderTextDiv h1 {
+  font-size: 22px;
+  color: red;
+  margin-top: 0px;
+}
+/* renderingDiv css */
+.RenderingDiv {
+  max-width: 600px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  overflow-x: hidden;
+}
+/* OnPage CSS */
+.OnPageLoadMainDiv {
+  display: flex;
+  max-width: 100%;
+  gap: 25px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.SucDivAndWaitDiv span {
+  font-size: 45px;
+  font-weight: 600;
+}
+.SucDivAndWaitDiv small {
+  font-size: 16px;
+}
+.SucDivAndWaitDiv {
+  background-color: white;
+  max-width: 100%;
+  width: 100%;
+  padding: 20px 0px;
+  text-align: center;
+}
+.FindingProductDiv {
+  background-color: white;
+  max-width: 100%;
+  width: 100%;
+  padding: 20px 150px;
+  text-align: center;
+}
+.FindingProductDiv small {
+  font-size: 12px;
+}
+.FindingProductDiv span {
+  font-size: 16px;
+  font-weight: 600;
+}
+/* MainDiv CSS */
+.MainDiv {
+  max-width: 100%;
+  padding: 0px 20px;
+  background-color: white;
+  gap: 20px;
+}
+.ProductDiv {
+  padding-top: 20px;
+  max-width: 100%;
+  background-color: white;
+}
+.ProductMainDiv {
+  display: flex;
+  border: 1px solid rgb(158, 155, 155);
+  padding-top: 5px;
+  padding-bottom: 10px;
+  padding-left: 5px;
+  padding-right: 5px;
+  gap: 15px;
+  background-color: white;
+}
+
+.ProductImgDiv {
+  border: rgb(158, 155, 155) solid 1px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.ProductImgDiv img {
+  max-width: 100px;
+}
+.ProductDetailsDiv {
+  display: flex;
+  flex-direction: column;
+}
+
+.ProductDetailsCols {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+.ProductDetailsDiv h2 {
+  font-size: 18px;
+  margin: 0;
+}
+.ProductDetailsColsP {
+  font-size: 14px;
+}
+.ProductDetailsColsP b {
+  font-size: 16px;
+  color: green;
+}
+.ProductDetailsColsP del {
+  color: red;
+  font-weight: 600;
+}
+.ProductDetailsColsBtn {
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+}
+.ProductDetailsColsBtn button {
+  padding: 10px 0px;
+  background-color: red;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 300ms ease-in-out;
+}
+.ProductDetailsColsBtn button:hover {
+  background-color: darkred;
+  transition: all 300ms ease-in-out;
+}
+.ProductInfoThreeSpan {
+  font-size: 10px;
+  color: #010101;
+  font-weight: 700;
+  justify-content: center;
+  display: flex;
+  gap: 25px;
+}
+.ExperAndHrDiv {
+  font-size: 14px;
+}
+.ExperAndHrDiv hr {
+  height: 1px;
+  background-color: gray;
+  border: 1px solid gray;
+}
+.CommentsMainDiv {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding-bottom: 20px;
+}
+.CommentInput {
+  width: 100%;
+  height: 60px;
+  border: 1px solid rgb(202, 199, 199);
+  font-size: 12px;
+  text-align: top;
+  resize: none;
+}
+.CommentInput:focus {
+  border-style: none;
+}
+.commnetBtn {
+  padding: 5px 10px;
+  background-color: red;
+  color: white;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  transition: all 300ms ease-in-out;
+}
+.commnetBtn:hover {
+  background-color: darkred;
+  transition: all 300ms ease-in-out;
+}
+.EachCommentMainDiv {
+  border: 1px solid rgb(202, 199, 199);
+  padding: 1px 10px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+.EachCommentImgDiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.EachCommentImgDiv img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+.EachCommentTextDiv {
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+}
+.NameAndDateDiv {
+  display: flex;
+  gap: 10px;
+  font-size: 10px;
+}
+.CommentTextDiv {
+  margin-top: -15px;
+  font-size: 10px;
+}
+/* Footer Div */
+.FooterMainDiv {
+  display: flex;
+  max-width: 100%;
+  flex-direction: column;
+}
+.FooterImgDiv {
+  background-color: #393737;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 0px;
+}
+.FooterImgDiv img {
+  max-width: 100px;
+}
+.FooterTextDiv {
+  background-color: #1b1a1a;
+  color: white;
+  padding: 0px 10px;
+}
+.FooterTextDiv h6 {
+  text-align: center;
+}
+.FooterTextDiv p {
+  font-size: 10px;
+}
+
+/* Spinner */
+
+/* Spinner ends */
+@media screen and (max-width: 600px) {
+  .FindingProductDiv {
+    padding: 20px 20px;
+  }
+  .ProductMainDiv {
+    padding: 10px 5;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+  .ProductImgDiv {
+    width: 100%;
+    padding: 20px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .ProductImgDiv img {
+    max-width: 80px;
+  }
+  .ProductDetailsDiv h2 {
+    font-size: 14px;
+  }
+  .ProductDetailsCols {
+    flex-direction: column;
+    gap: 5px;
+  }
+  .ProductDetailsColsP {
+    font-size: 12px;
+  }
+  .ProductDetailsColsP b {
+    font-size: 14px;
+  }
+  .ProductDetailsColsBtn {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .ProductDetailsColsBtn button {
+    width: 100%;
+    padding: 8px 0px;
+    font-size: 14px;
+  }
+  .ProductInfoThreeSpan {
+    flex-direction: row;
+    gap: 25px;
+    font-size: 8px;
+  }
+}
+
+/* spinner */
+/* Spinner */
+.SpinnerDiv {
+  margin-top: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.spinner {
+  width: 40px;
+  height: 40px;
+  border: 4px solid rgba(200, 0, 0, 0.2);
+  border-top: 4px solid red;
+  border-radius: 50%;
+  animation: spin 1s linear infinite;
+  will-change: transform;
+}
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* Animations */
+.animate-zoom {
+  animation: zoomIn 0.8s ease forwards;
+  will-change: transform, opacity;
+}
+@keyframes zoomIn {
+  0% {
+    transform: scale(0.3);
+    opacity: 0;
+  }
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+.animate-fade {
+  animation: fadeIn 1s ease forwards;
+}
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-pop {
+  animation: popIn 0.6s ease forwards;
+}
+@keyframes popIn {
+  0% {
+    transform: scale(0.8);
+    opacity: 0;
+    color: darkred;
+  }
+  100% {
+    transform: scale(1);
+    opacity: 1;
+    color: green;
+  }
+}
